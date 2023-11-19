@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вдосконалений пошук</title>
+  <link rel="stylesheet" href="styles-advanced.css">
+</head>
+<body>
+  <form action="https://www.google.com/search" method="get">
+    <label for="all-words">Знайти сторінку зі всімв словами:</label>
+    <input type="text" id="all-words" name="as_q">
+
+    <label for="exact-phrase">Знайти сторінки з точною фразою:</label>
+    <input type="text" id="exact-phrase" name="as_epq">
+
+    <label for="any-words">Знайти сторінки з будь-яким із цих слів:</label>
+    <input type="text" id="any-words" name="as_oq">
+
+    <label for="none-words">Знайти сторінки без слів:</label>
+    <input type="text" id="none-words" name="as_eq">
+
+    <input type="submit" value="Advanced Search">
+  </form>
+  <a href="index.html">Google пошук</a>
+</body>
+</html>

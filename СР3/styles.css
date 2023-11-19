@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4285f4;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
